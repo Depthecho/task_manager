@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "10835560-d442-4b2a-8804-69b46f1999ae",
+		"name": "tasks API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47033486",
+		"_collection_link": "https://depthecho-5506971.postman.co/workspace/Mikhail-Fistin's-Workspace~46a92d6f-8438-4b32-8c6c-88a62c0164e4/collection/47033486-10835560-d442-4b2a-8804-69b46f1999ae?action=share&source=collection_link&creator=47033486"
+	},
+	"item": [
+		{
+			"name": "create task request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "edit task request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "create one more task request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete task request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "create one more task request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "edit task request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "register user request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "token request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "testuser",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpass123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8001/auth/token",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"auth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
